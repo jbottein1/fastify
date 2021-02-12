@@ -1,4 +1,4 @@
-# for more infoo visit https://cto.ai/docs/developing-ops/configuring-ops
+# for more info visit https://cto.ai/docs/developing-ops/configuring-ops
 version: "1"
 services:
   # Unique identifier for your op (required)
@@ -22,12 +22,6 @@ services:
     mountHome: false
     port: [ '8080:8080' ]
     env:
-      configs:
-        - config13
-        - config11
-      secrets:
-        - secret12
-        - secret13
       static:
         - DB_PORT=5050
     events:
