@@ -11,4 +11,6 @@ ADD --chown=ops:9999 app.js .
 ADD --chown=ops:9999 routes routes
 ADD --chown=ops:9999 plugins plugins
 
-RUN npm install
+RUN npm install --production
+
+ADD . .
