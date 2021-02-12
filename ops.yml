@@ -9,7 +9,7 @@ services:
     # Short description for what your op does (required)
     description: template
     # Command that is executed when op is started ("npm start", "./start_script.sh", etc.) (required)
-    run: "node /ops/index.js"
+    run: "node /ops/app.js"
     remote: true
     sdk: "2"
     # A link to a public Github repo (e.g.: "<https://github.com/cto-ai/aws>") or a markdown file
