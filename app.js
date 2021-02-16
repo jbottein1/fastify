@@ -8,7 +8,7 @@ module.exports = async function (fastify, opts) {
 
   // Do not touch the following lines
 
-  // This loads all plugins defined in plugins
+  // This loads all plugins defined in plugin
   // those should be support plugins that are reused
   // through your application
   fastify.register(AutoLoad, {
