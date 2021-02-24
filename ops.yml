@@ -2,7 +2,7 @@ version: "1"
 services:
   - name: fastify:0.1.0
     description: my app description
-    run: node /ops/app.js
+    run: npm start
     port: [ '8080:8080' ]
     domain: ""
     env:
